@@ -9,9 +9,8 @@ function HomePage() {
       <div className="home-heading">
         <h1>Pacrk Cloud</h1>
       </div>
-        <Link to="/location-search">
+        <Link to="/booking">
           <button className="book-button">Book Now</button>
-          
         </Link>
       </div>
   );
