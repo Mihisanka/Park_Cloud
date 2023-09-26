@@ -16,7 +16,7 @@ function HomePage() {
       </div>
 
       <div className="home-sub-heading">
-      <p style={{color: "white"}}><b>"A place to share your ideas"</b></p>
+      <p style={{color: ""}}><b>"A place to share your ideas"</b></p>
       </div>
 
         <Link to="/booking">
