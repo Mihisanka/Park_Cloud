@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
@@ -17,7 +17,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
-const pages = [ 'About', 'Login'];
+const pages = [ 'About', 'Login','Services','Contact'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
@@ -171,5 +171,70 @@ function Navbar() {
     </AppBar>
   );
 }
+
+export default Navbar;*/
+
+// NavBar.js
+import React, { useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import './Navbar.css';
+
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  return (
+
+
+    
+    <nav className="navbar">
+      <div className="navbar-logo">
+        <Link to="/">Your Logo</Link>
+      </div>
+
+      <div className={`navbar-menu ${menuOpen ? 'active' : ''}`}>
+        <ul>
+          <li>
+            <NavLink to="/" activeClassName="active-link">
+              Home
+            </NavLink>
+            
+          </li>
+          <li>
+            <NavLink to="/contact-us-section" activeClassName="active-link">
+              Contact Us
+            </NavLink>
+            
+          </li>
+          <li>
+            <NavLink to="/services-section" activeClassName="active-link">
+              Services
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/about" activeClassName="active-link">
+              About
+            </NavLink>
+          </li>
+        </ul>
+        <div className="menu-icon" onClick={toggleMenu}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
+      </div>
+
+      <div className="user-menu">
+        <div className="menu-item">Profile</div>
+        <div className="menu-item">Account</div>
+        <div className="menu-item">Dashboard</div>
+        <div className="menu-item">Logout</div>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;

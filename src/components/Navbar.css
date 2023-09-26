@@ -1,4 +1,4 @@
-/* src/components/Navbar.css */
+/* src/components/Navbar.css
 
 .navbar {
     background-color: #333;
@@ -22,5 +22,98 @@
     color: #fff;
   }
   
-  /* Add more styles as needed */
-  
+  Add more styles as needed */
+  /* NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.navbar-menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-menu ul li {
+  margin-right: 20px;
+}
+
+.navbar-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.navbar-menu ul li a.active-link {
+  font-weight: bold;
+}
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  background-color: white;
+  height: 3px;
+  width: 30px;
+  margin: 4px 0;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-item {
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    top: 65px;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+    z-index: 1;
+  }
+
+  .navbar-menu.active {
+    transform: translateY(0);
+  }
+
+  .navbar-menu ul {
+    flex-direction: column;
+  }
+
+  .navbar-menu ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-menu ul li a {
+    font-size: 20px;
+  }
+}

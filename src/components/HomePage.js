@@ -1,10 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './HomePage.css'; // Import the CSS file for styling
+import ServicesSection from './ServicesSection';
+import ContactUsSection from './ContactUsSection';
+import AboutPage from './AboutPage';
+import Footer from './Footer';
 
 
 function HomePage() {
   return (
+    <>
     <div className="homepage">
       <div className="home-heading">
         <h4>Pacrk Cloud</h4>
@@ -17,10 +22,29 @@ function HomePage() {
         <Link to="/booking">
           <button className="book-button">Book Now</button>
         </Link>
+
+        <Link to="/ServicesSection">
+          
+        </Link>
+        
       </div>
+      <ServicesSection />
+
+      <>
+      <AboutPage />
+      </>
+
+      <>
+      <ContactUsSection />
+      </>
+
+      <>
+      <Footer />
+      </>
+    </>
+    
   );
 }
-
 export default HomePage;
 
 /*import React from 'react';
