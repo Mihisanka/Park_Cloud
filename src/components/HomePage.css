@@ -5,40 +5,28 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
   background-image: url('/bgg.png'); /* Replace with your image URL */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.home-heading {
+.home-heading h4 {
   text-align: center;
-  color: rgb(239, 239, 11);
+  color: rgb(18, 72, 107);
   font-size: 100px;
-  font-style: italic;
-  /*margin-bottom: 10px;*/
+  /* font-family: "Lucida Console", "Courier New", monospace; */
+  margin-bottom: 5px;
 }
 
 .home-sub-heading {
   text-align: center;
-  color: rgb(18, 18, 17);
+  color: rgba(129, 158, 199, 1);
   font-size: 20px;
   font-style: italic;
   /*margin-bottom: 10px;*/
 }
-
-/*.pack-cloud {
- /* background-color: lightblue;
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
-}
-.pack-cloud-heading {
-  font-size: 26px;
-  font-style: italic;
-  margin-bottom: 10px;
-}*/
 
 .book-button {
   background-color: rgb(241, 245, 12);
@@ -53,3 +41,15 @@
 .book-button:hover {
   background-color: #d4f614; /* Light blue color on hover */
 }
+
+/* .pack-cloud {
+ /* background-color: lightblue;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.pack-cloud-heading {
+  font-size: 26px;
+  font-style: italic;
+  margin-bottom: 10px;
+} */

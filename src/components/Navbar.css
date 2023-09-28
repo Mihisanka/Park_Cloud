@@ -28,14 +28,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  color: white;
+  background-color: #fffcfc;
+  color: #ffffff;
   padding: 10px 20px;
+
 }
 
 .navbar-logo a {
   text-decoration: none;
-  color: white;
+  color: #5276F7;
   font-size: 24px;
 }
 
@@ -50,7 +51,7 @@
 
 .navbar-menu ul li a {
   text-decoration: none;
-  color: white;
+  color: #5276F7;
   font-size: 18px;
 }
 
@@ -80,7 +81,7 @@
 .menu-item {
   cursor: pointer;
   font-size: 18px;
-  color: white;
+  color: #5276F7;
 }
 
 @media (max-width: 768px) {
@@ -91,7 +92,7 @@
   .navbar-menu {
     flex-direction: column;
     position: absolute;
-    background-color: #333;
+    background-color: #5276F7;
     width: 100%;
     top: 65px;
     left: 0;

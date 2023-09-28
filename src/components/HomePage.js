@@ -12,11 +12,13 @@ function HomePage() {
     <>
     <div className="homepage">
       <div className="home-heading">
-        <h4>Pacrk Cloud</h4>
+        <h4>Park Cloud</h4>
       </div>
 
       <div className="home-sub-heading">
-      <p style={{color: ""}}><b>"A place to share your ideas"</b></p>
+      <p style={{color: ""}}><b>your trusted destination for hassle-free 
+        parking solutions. 
+        </b></p>
       </div>
 
         <Link to="/booking">
