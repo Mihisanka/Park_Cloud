@@ -227,12 +227,12 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="user-menu">
+      {/* <div className="user-menu">
         <div className="menu-item">Profile</div>
         <div className="menu-item">Account</div>
         <div className="menu-item">Dashboard</div>
         <div className="menu-item">Logout</div>
-      </div>
+      </div> */}
     </nav>
   );
 };
