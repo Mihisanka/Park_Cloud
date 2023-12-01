@@ -1,8 +1,6 @@
 // HeroSection.js
 //import React from 'react';
-
-
-import './Footer.css';
+import './styles/Footer.css';
 import React from 'react';
 
 const Footer = () => {
@@ -20,7 +18,7 @@ const Footer = () => {
           <a href="services-section">Services</a>
           <a href="contact-us-section">Contact</a>
         </p>
-        <p className="footer-company-name">Company Name © 2015</p>
+        <p className="footer-company-name">Park Cloud © 2023</p>
       </div>
 
       <div className="footer-center">
@@ -32,12 +30,12 @@ const Footer = () => {
         </div>
         <div>
           <i className="fa fa-phone"></i>
-          <p>+1.555.555.5555</p>
+          <p>+94 11222222</p>
         </div>
         <div>
           <i className="fa fa-envelope"></i>
           <p>
-            <a href="mailto:support@company.com">support@company.com</a>
+            <a href="mailto:support@company.com">Parkcloud@company.com</a>
           </p>
         </div>
       </div>

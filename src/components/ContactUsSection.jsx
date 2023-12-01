@@ -1,5 +1,5 @@
 import React from 'react';
-import './ContactUsSection.css';
+import './styles/ContactUsSection.css';
 
 function contacUsSection () {
   return (

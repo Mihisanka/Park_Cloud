@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './BookingPage.css'; // Import the CSS file for styling
+import './styles/BookingPage.css'; // Import the CSS file for styling
 import Devmap from './Devmap';
 
 function BookingPage() {
@@ -23,7 +23,12 @@ function BookingPage() {
 
   return (
     <div >
-    <div className=""><Devmap/></div>
+    <div className="map">
+    <>
+    <Devmap/>
+      </>
+      
+      </div>
        <div className="booking-page">
        
       <h1>Book Parking</h1>

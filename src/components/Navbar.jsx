@@ -177,7 +177,7 @@ export default Navbar;*/
 // NavBar.js
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import './Navbar.css';
+import './styles/Navbar.css';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -192,7 +192,7 @@ const Navbar = () => {
     
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">Your Logo</Link>
+        <Link to="/">Park Cloud</Link>
       </div>
 
       <div className={`navbar-menu ${menuOpen ? 'active' : ''}`}>

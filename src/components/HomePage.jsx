@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './HomePage.css'; // Import the CSS file for styling
+import './styles/HomePage.css'; // Import the CSS file for styling
 import ServicesSection from './ServicesSection';
 import ContactUsSection from './ContactUsSection';
 import AboutPage from './AboutPage';
@@ -19,9 +19,9 @@ function HomePage() {
       <p style={{color: ""}}><b>your trusted destination for hassle-free 
         parking solutions. 
         </b></p>
+        
       </div>
-
-        <Link to="/booking">
+        <Link to="/login">
           <button className="book-button">Book Now</button>
         </Link>
 
@@ -35,7 +35,7 @@ function HomePage() {
       <>
       <AboutPage />
       </>
-
+      
       <>
       <ContactUsSection />
       </>

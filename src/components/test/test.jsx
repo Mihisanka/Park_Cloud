@@ -1,6 +1,7 @@
 import React from "react";
 import Map from "devextreme-react/map";
 import SelectBox from "devextreme-react/select-box";
+import '../test.css';
 
 
 function TestMap() {
@@ -29,7 +30,7 @@ class TestMap extends React.Component {
     let longitudeB = this.props.longitudeB;
 
     return (
-      <div>
+      <div className="test-s"> 
         <Map
           defaultZoom={14}
           height={440}

@@ -28,7 +28,7 @@ export default AboutPage;*/
 
 
 import React from 'react';
-import './AboutPage.css'; // Import the CSS file for styling
+import './styles/AboutPage.css'; // Import the CSS file for styling
 
 function AboutPage() {
   return (
@@ -64,7 +64,16 @@ function AboutPage() {
         </div>
       </div>
       <h2 className="team-heading">Our Team</h2>
+      <div className="member-box ">
+          <h3>mihisanka</h3>
+          <p>Description of Service 1 goes here.</p>
+        </div>
+        <div className="member-box ">
+          <h3>nayani</h3>
+          <p>Description of Service 2 goes here.</p>
+        </div>
       <div className="row">
+      
         {/* Add team member components here */}
       </div>
     </div>
