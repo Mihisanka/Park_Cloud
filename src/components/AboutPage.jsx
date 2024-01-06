@@ -63,18 +63,40 @@ function AboutPage() {
             the convenience of Park Cloud Car Park today."</p>
         </div>
       </div>
+
+      <div className="About-row">
       <h2 className="team-heading">Our Team</h2>
-      <div className="member-box ">
-          <h3>mihisanka</h3>
-          <p>Description of Service 1 goes here.</p>
-        </div>
-        <div className="member-box ">
-          <h3>nayani</h3>
-          <p>Description of Service 2 goes here.</p>
-        </div>
-      <div className="row">
-      
-        {/* Add team member components here */}
+      <div className="info-card">
+              <h3 className="info-card__title">
+                Convenience and Accessibility
+              </h3>
+              <img
+                //src="../assets/traverse-assets/benefits1.svg"
+                //alt=""
+                //className="info-card__icon"
+              />
+              <p className="info-card__description">
+                Allows virtual exploration of diverse physical locations, providing accessibility 
+                without time or location constraints.
+              </p>
+            </div>
+
+
+
+            <div className="info-card">
+              <h3 className="info-card__title">
+                Convenience and Accessibility
+              </h3>
+              <img
+                //src="../assets/traverse-assets/benefits1.svg"
+                //alt=""
+                //className="info-card__icon"
+              />
+              <p className="info-card__description">
+                Allows virtual exploration of diverse physical locations, providing accessibility 
+                without time or location constraints.
+              </p>
+            </div>
       </div>
     </div>
   );

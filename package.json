@@ -14,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "devextreme": "23.1.5",
     "devextreme-react": "23.1.5",
+    "express": "^4.18.2",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -46,5 +47,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "fyp",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mihisanka/Parck_Cloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mihisanka/Parck_Cloud/issues"
+  },
+  "homepage": "https://github.com/Mihisanka/Parck_Cloud#readme"
 }
