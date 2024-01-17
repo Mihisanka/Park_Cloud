@@ -9,18 +9,51 @@ function ServicesSection() {
        <h1>Service</h1>
       </div>
       <div className="service-row">
-        <div className="service-box">
-          <h3>Service 1</h3>
-          <p>Description of Service 1 goes here.</p>
-        </div>
-        <div className="service-box">
-          <h3>Service 2</h3>
-          <p>Description of Service 2 goes here.</p>
-        </div>
-        <div className="service-box">
-          <h3>Service 3</h3>
-          <p>Description of Service 3 goes here.</p>
-        </div>
+        <div className="info-card">
+              <h3 className="info-card__title">
+                Convenience and Accessibility
+              </h3>
+              <img
+                //src="../assets/traverse-assets/benefits1.svg"
+                //alt=""
+                //className="info-card__icon"
+              />
+              <p className="info-card__description">
+                Allows virtual exploration of diverse physical locations, providing accessibility 
+                without time or location constraints.
+              </p>
+            </div>
+
+            <div className="info-card">
+              <h3 className="info-card__title">
+                Convenience and Accessibility
+              </h3>
+              <img
+                //src="../assets/traverse-assets/benefits1.svg"
+                //alt=""
+                //className="info-card__icon"
+              />
+              <p className="info-card__description">
+                Allows virtual exploration of diverse physical locations, providing accessibility 
+                without time or location constraints.
+              </p>
+            </div>
+
+            <div className="info-card">
+              <h3 className="info-card__title">
+                Convenience and Accessibility
+              </h3>
+              <img
+                //src="../assets/traverse-assets/benefits1.svg"
+                //alt=""
+                //className="info-card__icon"
+              />
+              <p className="info-card__description">
+                Allows virtual exploration of diverse physical locations, providing accessibility 
+                without time or location constraints.
+              </p>
+            </div>
+       
        
         </div>
     </section>

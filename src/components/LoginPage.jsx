@@ -1,45 +1,3 @@
-/*import React, { useState } from 'react';
-function LoginPage() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
-
-  const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
-  };
-
-  const handleLogin = (e) => {
-    e.preventDefault();
-    // Add your login logic here, such as API calls or authentication
-    console.log('Logging in with email:', email, 'and password:', password);
-  };
-
-  return (
-    <div>
-      <h2>Login</h2>
-      <form onSubmit={handleLogin}>
-        <div>
-          <label>Email:</label>
-          <input type="email" value={email} onChange={handleEmailChange} />
-        </div>
-        <div>
-          <label>Password:</label>
-          <input type="password" value={password} onChange={handlePasswordChange} />
-        </div>
-        <div>
-          <button type="submit">Login</button>
-        </div>
-      </form>
-    </div>
-  );
-}
-
-export default LoginPage;*/
-
-
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
@@ -81,8 +39,6 @@ export default function SignUp() {
       password: data.get('password'),
     });
   };
-
-  
 
   return (
     <ThemeProvider theme={defaultTheme}>
